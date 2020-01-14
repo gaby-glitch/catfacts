@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <link rel="manifest" href="/manifest.json">
+    <link href="https://fonts.googleapis.com/css?family=Lilita+One&display=swap" rel="stylesheet">
+    <meta name="theme-color" content="#2F3BA2"/>
+    <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Weather PWA">
+    <link rel="apple-touch-icon" href="/images/icons/icon-152x152.png">
+    <link rel="icon" href="favicon.png" type="image/gif" sizes="16x16">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+    <title>CAT FACTS</title>
+    <link rel="stylesheet" href="style.css">  
+  </head>
+  
+  <body>
+    <h1>Cat Facts!</h1>
+    <div id="fact" class="foo"> </div>
+    <div id="content" class="foo"> </div>
+	<div id="zact" class="foo"> </div>
+    <div id="jact" class="foo"> </div>
+    
+    <div class="grid-container">
+     <div class="header">
+       <span>cat fact</span>
+       <button id="butInstall" aria-label="Install" hidden></button>
+        <button id="butRefresh" aria-label="Refresh" hidden></button>
+      </div>
+    
+      <script src="addserviceworker.js"></script>
+      <script src="client.js"></script>
+      <script src="install.js"></script>
+   
+    
+	
+	
+   <div id="button1"><button class="button" onclick="generate()">Generate</button></div>
+   <div id="button3"><button class="button" onclick="kittens()">Kittens</button></div>
+  
+     <script src="client.js"></script>
+	
+	
+    
+ 
+ <p id="demo"></p><br><br><br>
+
+ 
+
+<script src ="addserviceworker.js"> </script>
+
+
+ <script>/*
+   let proxyUrl = 'https://cors-anywhere.herokuapp.com/'
+   let url = "https://cat-fact.herokuapp.com/facts";
+  
+   fetch(proxyUrl + url).then(function(response) {
+       response.json().then(function(json) {
+          showCatFact(json);
+         //showJSON(json);
+         
+     });
+   });
+   
+   
+   function showCatFact(json) {
+      let fact = document.getElementById("fact");  
+     //* fact.textContent = json.all[0].text + " submitted by " + json.all[0].user.name.first + json.all[0].user.name.last;
+   }
+   
+   
+   function showJSON(json) {
+     let content = document.getElementById("content");
+     content.innerHTML = "<pre>" + JSON.stringify(json, undefined, 2) + "</pre>";
+   
+   }*/
+</script>
+ 
+ 
+ 
+  </body>
+  
+ 
+  
+</html>

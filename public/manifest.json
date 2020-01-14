@@ -1,0 +1,54 @@
+{
+ "name": "Cat Fact App",
+  "short_name": "Cat fact",
+ "icons": [
+  {
+   "src": "/images/android-icon-144x144.png",
+   "sizes": "144x144",
+   "type": "image/png",
+   "density": "0.75"
+  },
+  {
+   "src": "/images/android-icon-120x120.png",
+   "sizes": "120x120",
+   "type": "image/png",
+   "density": "1.0"
+  },
+  {
+   "src": "/images/android-icon-152x152.png",
+   "sizes": "152x152",
+   "type": "image/png",
+   "density": "1.5"
+  },
+  {
+   "src": "/images/android-icon-180x180.png",
+   "sizes": "180x180",
+   "type": "image/png",
+   "density": "2.0"
+  },
+  {
+   "src": "/images/android-icon-150x150.png",
+   "sizes": "150x150",
+   "type": "image/png",
+   "density": "3.0"
+  },
+ 
+ {
+   "src": "/images/android-icon-150x150.png",
+   "sizes": "150x150",
+   "type": "image/png",
+   "density": "3.0"
+   },
+   
+   
+   {
+   "src": "/images/android-icon-144x144.png",
+   "sizes": "144x144",
+   "type": "image/png",
+   "density": "3.0"
+   }],
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#3E4EB8",
+  "theme_color": "#2F3BA2"
+}

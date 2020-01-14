@@ -1,0 +1,97 @@
+
+body {
+  font-family: 'Lilita One',  cursive;
+  margin: 0;
+  padding: 0;
+  background: #AF9AC3;
+  text-align: center;
+
+}
+h1{
+	color: white;
+	font-size:90px;
+}
+
+.foo{
+	text-align:center;
+	padding:25px;
+	margin:15px;
+	font-size:30px;
+	width:60%;
+	background-color:white;
+    position: relative;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+
+
+ 
+
+
+.button {
+  background-color:white;
+  border: none;
+  color: black;
+  padding: 12px 30px;
+  text-align: center;
+  display: inline-block;
+  font-size: 60px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius:30px;
+ 
+}
+.button1{
+	text-align:center;
+}
+
+.button2{
+	text-align:left;
+}
+
+
+
+
+.foo{
+	text-align:center;
+	padding:25px;
+	margin:15px;
+	font-size:30px;
+	width:60%;
+	background-color:white;
+
+    position: relative;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.foo{
+	text-align:center;
+	padding:25px;
+	margin:15px;
+	font-size:30px;
+	width:60%;
+	background-color:white;
+    position: relative;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.butInstall{
+  text-align:center;
+	padding:25px;
+	margin:15px;
+	font-size:30px;
+	width:60%;
+	background-color:white;
+    position: relative;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+
+
+
